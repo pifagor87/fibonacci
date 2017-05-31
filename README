@@ -1,0 +1,5 @@
+Using:
+$function = 'fibonacciFirst'; //fibonacciFirst or fibonacciSecond or fibonacciThird.
+$number = 50;
+$fibonacci = new fibonacciNumbers($function, $number);
+print $fibonacci->getValue();
